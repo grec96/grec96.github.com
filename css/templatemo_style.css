@@ -67,8 +67,8 @@ textarea {
    Helper classes
    ========================================================================== */
 .ir {
-  background-color: transparent;
-  border: 0;
+  background-color: #ffe;
+  border: 2;
   overflow: hidden;
   *text-indent: -9999px;
 }
@@ -110,10 +110,10 @@ form input[type="text"],
 form input[type="email"],
 form input[type="number"],
 form input[type="password"] {
-  background: #fff;
+  background: #d3e2ed;
   border: 1px solid #fff;
-  padding: 7px 10px;
-  width: 60%;
+  padding: 5px 5px;
+  width: 100%;
 }
 form input[type="text"]:focus,
 form input[type="email"]:focus,
@@ -644,10 +644,14 @@ h6 {
   outline: 0;
   border: 0;
 }
+input[type="text"] {
+   border: 1px solid black;
+   border-radius: 5px;
+}
 
 input, textarea {
   margin-bottom: 30px;
-  background-color: #f6f7f8;
+  background-color: #d3e2ed;
   padding: 14px;
   font-size: 14px;
   color: #838383;
