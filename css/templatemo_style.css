@@ -369,8 +369,8 @@ h6 {
 
 .toggle-menu {
   display: none;
-  margin: 40px 35px 0 0;
-  font-size: 24px;
+  margin: 33px 35px 0 0;
+  font-size: 23px;
   color: white;
   text-align: right;
 }
@@ -382,7 +382,7 @@ h6 {
   width: 100%;
 }
 .responsive .topbar ul li a {
-  line-height: 55px;
+  line-height: 25px;
   padding: 10px 20px;
 }
 .responsive .topbar ul li a.current {
@@ -721,6 +721,8 @@ ul.social li a {
 
   .site-header .container {
     padding: 0;
+    background-color:"#161616"
+    
   }
 
   .slider-caption {
