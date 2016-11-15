@@ -77,7 +77,12 @@
 		font: 12px Verdana;
 		font-weight: 700;
 		color: #FFFFFF;
-		background-color: #cc0000;
+		background-color: green;
 		padding-bottom: 2px;
 		margin: 5px 0 15px 135px;
+}
+
+.sidebarForm button[disabled]{
+background-color: red;
+
 }
